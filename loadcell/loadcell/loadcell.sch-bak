@@ -1,0 +1,117 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20PU U?
+U 1 1 5D673927
+P 4200 2550
+F 0 "U?" H 3671 2596 50  0000 R CNN
+F 1 "ATtiny85-20PU" H 3671 2505 50  0000 R CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 2550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 4200 2550 50  0001 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5D673E21
+P 7450 2450
+F 0 "J?" H 7530 2442 50  0000 L CNN
+F 1 "Conn_01x06" H 7530 2351 50  0000 L CNN
+F 2 "" H 7450 2450 50  0001 C CNN
+F 3 "~" H 7450 2450 50  0001 C CNN
+	1    7450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D6747B6
+P 7450 3600
+F 0 "J?" H 7530 3592 50  0000 L CNN
+F 1 "Conn_01x04" H 7530 3501 50  0000 L CNN
+F 2 "" H 7450 3600 50  0001 C CNN
+F 3 "~" H 7450 3600 50  0001 C CNN
+	1    7450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 2450 6400 2450
+Wire Wire Line
+	7250 2750 6400 2750
+Text Label 6850 2350 0    50   ~ 0
+DAT
+Text Label 6850 2450 0    50   ~ 0
+CLK
+Text Label 6850 2250 0    50   ~ 0
+VDD
+Text Label 6850 2750 0    50   ~ 0
+GND
+Text Label 6850 3500 0    50   ~ 0
+VCC
+Text Label 6850 3800 0    50   ~ 0
+GND
+Text Label 6850 3600 0    50   ~ 0
+CLK
+Text Label 6850 3700 0    50   ~ 0
+DATA
+Wire Wire Line
+	7250 3500 5950 3500
+Wire Wire Line
+	5950 3500 5950 2250
+Wire Wire Line
+	5950 2250 7250 2250
+Wire Wire Line
+	5950 2250 5950 1850
+Wire Wire Line
+	5950 1850 4200 1850
+Wire Wire Line
+	4200 1850 4200 1950
+Connection ~ 5950 2250
+Wire Wire Line
+	4200 3150 4200 3800
+Wire Wire Line
+	4200 3800 6400 3800
+Wire Wire Line
+	6400 2750 6400 3800
+Connection ~ 6400 3800
+Wire Wire Line
+	6400 3800 7250 3800
+Wire Wire Line
+	7250 3600 5150 3600
+Wire Wire Line
+	5150 3600 5150 2450
+Wire Wire Line
+	5150 2450 4800 2450
+Wire Wire Line
+	7250 3700 5050 3700
+Wire Wire Line
+	5050 3700 5050 2250
+Wire Wire Line
+	5050 2250 4800 2250
+Wire Wire Line
+	4800 2650 6400 2650
+Wire Wire Line
+	6400 2450 6400 2650
+Wire Wire Line
+	5550 2350 5550 2550
+Wire Wire Line
+	5550 2550 4800 2550
+Wire Wire Line
+	5550 2350 7250 2350
+NoConn ~ 4800 2350
+NoConn ~ 4800 2750
+NoConn ~ 7250 2550
+NoConn ~ 7250 2650
+$EndSCHEMATC

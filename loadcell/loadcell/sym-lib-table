@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SparkFun_HX711_Load_Cell-rescue)(type Legacy)(uri ${KIPRJMOD}/SparkFun_HX711_Load_Cell-rescue.lib)(options "")(descr ""))
+  (lib (name loadcell-rescue)(type Legacy)(uri ${KIPRJMOD}/loadcell-rescue.lib)(options "")(descr ""))
+)
