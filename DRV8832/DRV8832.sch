@@ -1,0 +1,117 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5E383F7B
+P 3300 2850
+F 0 "J?" H 3328 2826 50  0000 L CNN
+F 1 "DRV8832" H 3328 2735 50  0000 L CNN
+F 2 "" H 3300 2850 50  0001 C CNN
+F 3 "~" H 3300 2850 50  0001 C CNN
+	1    3300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E385126
+P 2450 2200
+F 0 "#PWR?" H 2450 2050 50  0001 C CNN
+F 1 "+5V" H 2465 2373 50  0000 C CNN
+F 2 "" H 2450 2200 50  0001 C CNN
+F 3 "" H 2450 2200 50  0001 C CNN
+	1    2450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E385337
+P 2600 3700
+F 0 "#PWR?" H 2600 3450 50  0001 C CNN
+F 1 "GND" H 2605 3527 50  0000 C CNN
+F 2 "" H 2600 3700 50  0001 C CNN
+F 3 "" H 2600 3700 50  0001 C CNN
+	1    2600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3050 3100 3050
+Wire Wire Line
+	3100 2750 2450 2750
+Wire Wire Line
+	2450 2200 2450 2300
+Wire Wire Line
+	2450 2750 2450 3050
+Connection ~ 2450 2750
+Wire Wire Line
+	2450 3050 2450 3150
+Wire Wire Line
+	2450 3150 3100 3150
+Connection ~ 2450 3050
+Wire Wire Line
+	3100 2850 2600 2850
+Wire Wire Line
+	2600 2850 2600 3700
+Wire Wire Line
+	3100 2550 2600 2550
+Wire Wire Line
+	2600 2550 2600 2850
+Connection ~ 2600 2850
+$Comp
+L Motor:Motor_DC M?
+U 1 1 5E38C3E5
+P 1550 2550
+F 0 "M?" H 1708 2546 50  0000 L CNN
+F 1 "Motor_DC" H 1708 2455 50  0000 L CNN
+F 2 "" H 1550 2460 50  0001 C CNN
+F 3 "~" H 1550 2460 50  0001 C CNN
+	1    1550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2450 1550 2450
+Wire Wire Line
+	1550 2450 1550 2350
+Wire Wire Line
+	3100 2650 1900 2650
+Wire Wire Line
+	1900 2650 1900 2850
+Wire Wire Line
+	1900 2850 1550 2850
+$Comp
+L Device:LED D?
+U 1 1 5E38DF91
+P 2150 2950
+F 0 "D?" H 2143 3166 50  0000 C CNN
+F 1 "LED" H 2143 3075 50  0000 C CNN
+F 2 "" H 2150 2950 50  0001 C CNN
+F 3 "~" H 2150 2950 50  0001 C CNN
+	1    2150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2950 2300 2950
+Wire Wire Line
+	2000 2950 2000 2300
+Wire Wire Line
+	2000 2300 2450 2300
+Connection ~ 2450 2300
+Wire Wire Line
+	2450 2300 2450 2750
+Wire Wire Line
+	3100 3250 2200 3250
+Wire Wire Line
+	3100 3350 2200 3350
+$EndSCHEMATC
