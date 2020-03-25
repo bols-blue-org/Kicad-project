@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPM82
+D DC/DC convertor 10W input DC8V~30V output 5V 2A
+K DCDC convertor 5V 
+$ENDCMP
+#
+#End Doc Library
