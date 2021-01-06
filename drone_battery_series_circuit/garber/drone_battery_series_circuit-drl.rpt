@@ -1,0 +1,25 @@
+Drill report for /home/bols/kicad/drone_battery_series_circuit/drone_battery_series_circuit.kicad_pcb
+Created on 2020年09月18日 13時50分04秒
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'drone_battery_series_circuit.drl' contains
+    plated through holes:
+    =============================================================
+    T1  2.00mm  0.079"  (4 holes)
+    T2  4.00mm  0.157"  (4 holes)
+    T3  5.50mm  0.217"  (2 holes)
+
+    Total plated holes count 10
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  3.20mm  0.126"  (4 holes)
+
+    Total unplated holes count 4

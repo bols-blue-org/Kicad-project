@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# MPM82-SankenElectric
+#
+DEF MPM82-SankenElectric U 0 40 Y Y 1 F N
+F0 "U" -50 350 50 H V C CNN
+F1 "MPM82-SankenElectric" -50 250 50 H V C CNN
+F2 "" -50 350 50 H I C CNN
+F3 "" -50 350 50 H I C CNN
+DRAW
+S -350 200 300 -200 0 1 0 f
+X NC 2 -450 100 100 R 50 50 1 1 N
+X Vin 3 -450 0 100 R 50 50 1 1 W
+X P-GND 4 -100 -300 100 U 50 50 1 1 W
+X S-GND 5 0 -300 100 U 50 50 1 1 W
+X Vout 6 400 100 100 L 50 50 1 1 w
+X FF 7 400 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # Mounting_Hole-Mechanical
 #
 DEF Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N

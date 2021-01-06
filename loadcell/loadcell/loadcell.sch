@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:loadcell-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATtiny:ATtiny85-20PU U?
+L loadcell-rescue:ATtiny85-20PU-MCU_Microchip_ATtiny U?
 U 1 1 5D673927
 P 2500 2250
 F 0 "U?" H 1971 2296 50  0000 R CNN

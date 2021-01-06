@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name sapog_reference_hardware-eagle-import)(type Legacy)(uri ${KIPRJMOD}/sapog_reference_hardware-eagle-import.lib)(options "")(descr ""))
+)
